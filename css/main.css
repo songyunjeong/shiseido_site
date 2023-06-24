@@ -1,10 +1,19 @@
-* {margin: 0; padding: 0;}
-li {list-style: none;}
-a {color: black; text-decoration: none;}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
 
 /*-------- header --------*/
 .gnb_box {
-  width: 100%; height: 20px;
+  width: 100%;
+  height: 20px;
   background-color: black;
 }
 .gnb_box .gnb {
@@ -25,19 +34,19 @@ a {color: black; text-decoration: none;}
   float: left;
 }
 
-
 .header {
   width: 1000px;
   margin: 0 auto;
 }
 .header .logo {
-  width: 300px; height: 84px;
+  width: 300px;
+  height: 84px;
   margin: 0 auto;
 }
 .header .logo img {
   display: block;
-  width: 100%; height: auto;
-
+  width: 100%;
+  height: auto;
 }
 
 /*-------- header lnb --------*/
@@ -72,17 +81,20 @@ a {color: black; text-decoration: none;}
 }
 
 .header .search {
-  width: 200px; height: 20px;
+  width: 200px;
+  height: 20px;
   border: 1px solid black;
 }
 
 /*-------- visual_main --------*/
 .visual_main {
-  width: 1000px; height: 500px;
+  width: 1000px;
+  height: 500px;
   margin: 20px auto;
 }
 .visual_main img {
-  width: 100%; height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /*-------- rollng_banner --------*/
@@ -92,21 +104,25 @@ a {color: black; text-decoration: none;}
   /* max-width */
 }
 .rolling_banner img {
-  width: 100%; height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /*-------- title_box --------*/
 .title_box {
-  width: 1000px; height: 60px;
+  width: 1000px;
+  height: 60px;
   margin: 0 auto;
   overflow: hidden;
 }
 .title_box div {
-  width: 350px; height: 60px;
+  width: 350px;
+  height: 60px;
   float: left;
 }
 .title_box .title {
-  width: 300px; height: 60px;
+  width: 300px;
+  height: 60px;
   text-align: center;
   line-height: 60px;
   float: left;
@@ -114,12 +130,14 @@ a {color: black; text-decoration: none;}
 
 /*-------- event --------*/
 .event {
-  width: 920px; height: 220px;
+  width: 920px;
+  height: 220px;
   margin: 0 auto;
   overflow: hidden;
 }
-.event>div {
-  width: 300px; height: 220px;
+.event > div {
+  width: 300px;
+  height: 220px;
   float: left;
 }
 .event .serum {
@@ -127,4 +145,136 @@ a {color: black; text-decoration: none;}
 }
 .event div p {
   font-weight: bold;
+}
+
+/*-------- best_seller --------*/
+.best_seller {
+  width: 870px;
+  height: 260px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+.best_seller > div {
+  width: 150px;
+  height: 250px;
+  margin-right: 30px;
+  float: left;
+}
+.best_seller .best05 {
+  margin: 0;
+}
+.best_seller div img {
+  display: block;
+  width: auto;
+  height: 175px;
+}
+.best_seller div p {
+  display: block;
+  width: 150px;
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.best_seller .best_btn {
+  width: 150px;
+  height: 25px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #eee;
+  font-size: 12px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.divider {
+  border: 1px solid #222;
+  width: 940px;
+  margin: 0 auto;
+}
+
+/*-------- img_box --------*/
+.img_box {
+  width: 940px;
+  height: 280px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.img_box img {
+  display: block;
+  float: left;
+}
+.img_box .banner {
+  width: 940px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+.img_box .banner img:nth-child(2) {
+  margin: 0 20px;
+}
+.img_box .sns {
+  width: 940px;
+  height: 100px;
+}
+.img_box .sns img:nth-child(2) {
+  margin: 0 20px;
+}
+
+/*-------- footer --------*/
+.footer_top_box {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+.footer_top_box .footer_top {
+  width: 940px;
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.footer_top_box div li {
+  display: inline;
+  height: 40px;
+  color: #eee;
+  font-size: 12px;
+  line-height: 40px;
+  margin-right: 10px;
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+.footer_top_box .footer_top .top_left {
+  float: left;
+}
+.footer_top_box .footer_top .top_right {
+  float: right;
+}
+.footer_top_box .footer_top ul li:last-child {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_bottom_box {
+  width: 100;
+  height: 20px;
+  background-color: #9f2c31;
+}
+.footer_bottom_box .footer_bottom {
+  width: 940px;
+  height: 20px;
+  margin: 0 auto;
+  line-height: 20px;
+  overflow: hidden;
+}
+.footer_bottom_box .footer_bottom div {
+  color: #eee;
+  font-size: 10px;
+}
+.footer_bottom_box .footer_bottom .bottom_left {
+  float: left;
+}
+.footer_bottom_box .footer_bottom .bottom_right {
+  float: right;
 }
