@@ -1,0 +1,130 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {color: black; text-decoration: none;}
+
+/*-------- header --------*/
+.gnb_box {
+  width: 100%; height: 20px;
+  background-color: black;
+}
+.gnb_box .gnb {
+  width: 1000px;
+  background-color: black;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.gnb_box .gnb ul {
+  float: right;
+}
+.gnb_box .gnb ul li {
+  width: 120px;
+  color: #eee;
+  font-size: 11px;
+  text-align: center;
+  line-height: 20px;
+  float: left;
+}
+
+
+.header {
+  width: 1000px;
+  margin: 0 auto;
+}
+.header .logo {
+  width: 300px; height: 84px;
+  margin: 0 auto;
+}
+.header .logo img {
+  display: block;
+  width: 100%; height: auto;
+
+}
+
+/*-------- header lnb --------*/
+.header .lnb_box {
+  height: 20px;
+  overflow: hidden;
+}
+.header .lnb_box ul {
+  margin-right: 30px;
+  border-right: 1px solid #666;
+  box-sizing: border-box;
+}
+.header .lnb_box li {
+  height: 20px;
+  display: inline;
+  padding: 0 5px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.header .lnb_box .lnb {
+  width: 510px;
+  float: left;
+}
+.header .lnb_box .brand {
+  width: 210px;
+  float: left;
+}
+.header .lnb_box .search {
+  width: 200px;
+  float: left;
+}
+
+.header .search {
+  width: 200px; height: 20px;
+  border: 1px solid black;
+}
+
+/*-------- visual_main --------*/
+.visual_main {
+  width: 1000px; height: 500px;
+  margin: 20px auto;
+}
+.visual_main img {
+  width: 100%; height: auto;
+}
+
+/*-------- rollng_banner --------*/
+.rolling_banner {
+  width: 100%;
+  min-width: 1000px;
+  /* max-width */
+}
+.rolling_banner img {
+  width: 100%; height: auto;
+}
+
+/*-------- title_box --------*/
+.title_box {
+  width: 1000px; height: 60px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.title_box div {
+  width: 350px; height: 60px;
+  float: left;
+}
+.title_box .title {
+  width: 300px; height: 60px;
+  text-align: center;
+  line-height: 60px;
+  float: left;
+}
+
+/*-------- event --------*/
+.event {
+  width: 920px; height: 220px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.event>div {
+  width: 300px; height: 220px;
+  float: left;
+}
+.event .serum {
+  margin: 0 10px;
+}
+.event div p {
+  font-weight: bold;
+}
